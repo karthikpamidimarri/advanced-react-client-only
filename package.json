@@ -6,6 +6,9 @@
   "repository": "karthikpamidimarri/advanced-react",
   "author": "karthikpamidimarri <karthikpamidimari@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch"
+  },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.6.1",
@@ -13,6 +16,7 @@
   },
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "pm2": "^2.6.1"
   }
 }
