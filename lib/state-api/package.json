@@ -1,0 +1,9 @@
+{
+  "name": "state-api",
+  "version": "1.0.0",
+  "description": "State API",
+  "main": "lib/index.js",
+  "repository": "karthikpamidimarri/advanced-react-client-only",
+  "author": "Karthik Pamidimarri",
+  "license": "MIT"
+}
